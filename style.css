@@ -10,13 +10,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 3px solid black;
-    height: 500px;
     width: 300px;
+    height: 500px;
 }
 
 .title{
     position: absolute;
-    left: 58px;
+    left: 53px;
     top: 5px;
     font-size: 40px;
 }
@@ -24,15 +24,15 @@
 .searchBox{
     position: absolute;
     top: 70px;
-    left: 26px;
+    left: 25px;
 }
 
 .searchBtn{
     position: absolute;
     top: 105px;
-    left: 50px;
-    border: none;
-    background: none;
+    left: 47px;
+    border: none; 
+    background: none; 
     padding: 5px;
     width: 200px;
     font-size: 19px;
@@ -41,19 +41,20 @@
 .city{
     position: absolute;
     top: 170px;
-    left: 90px;
+    /* left: 69px; */
     font-size: 33px;
 }
 
 .temperature{
     position: absolute;
     top: 210px;
-    left: 90px;
+    left: 114px;
+    left: 122px;
     font-size: 26px;
 }
 
 .icon{
-    position: relative;
+    position: absolute;
     left: 90px;
     top: 240px;
 }
@@ -61,20 +62,19 @@
 .description{
     position: absolute;
     top: 350px;
-    left: 65px;
     font-size: 20px;
 }
 
 .humidity{
     position: absolute;
     top: 390px;
-    left: 74px;
+    left: 69px;
     font-size: 20px;
 }
 
 .wind{
     position: absolute;
     top: 430px;
-    left: 35px;
+    left: 30px;
     font-size: 20px;
 }
